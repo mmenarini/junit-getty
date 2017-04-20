@@ -67,7 +67,7 @@ public class JUnitCore {
      * @param args from main()
      */
     Result runMain(JUnitSystem system, String... args) {
-        system.out().println("JUnit version " + Version.id());
+        system.out().println("JUnit version " + Version.id() + " (Getty-Customized)");
 
         JUnitCommandLineParseResult jUnitCommandLineParseResult = JUnitCommandLineParseResult.parse(args);
 
